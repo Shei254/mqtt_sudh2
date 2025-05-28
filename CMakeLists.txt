@@ -1,5 +1,5 @@
 ﻿cmake_minimum_required(VERSION 3.12)
-project(mqtt_server LANGUAGES CXX)
+project(mqtt_sudh2 LANGUAGES CXX)
 
 # Compiler options and flags
 set(CMAKE_CXX_STANDARD 17)
@@ -27,7 +27,7 @@ find_package(OpenSSL REQUIRED)
 
 # Main executable
 add_executable(${PROJECT_NAME} 
-    mqtt_server.cpp
+    mqtt_sudh2.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
